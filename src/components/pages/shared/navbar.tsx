@@ -25,7 +25,7 @@ const navbar = () => {
 
     </div>
           {/* NavContainer  */}
-      <div className='max-w-7xl mx-auto py-4 justify-between flex items-center gap-4 px-4'>
+      <div className='max-w-7xl mx-auto max-md:px-5 py-4 justify-between flex items-center gap-4 px-4'>
 
         
         <div className='flex justify-between items-center'>
