@@ -7,7 +7,7 @@ import Image from 'next/image'
 const hero = () => {
   return (
     <div className='bg-[#F2F1F1]'>
-      <div className='max-w-7xl overflow-hidden mx-auto max-md:px-5 py-16 gap-4 grid grid-cols-1 md:grid-cols-2 justify-center items-center'>
+      <div className='max-w-7xl overflow-hidden mx-auto px-5 py-16 gap-4 grid grid-cols-1 md:grid-cols-2 justify-center items-center'>
       {/* Hero Text */}
         <div>
           <h2 className= {`${HeaderFont.className} font-black text-4xl`}>

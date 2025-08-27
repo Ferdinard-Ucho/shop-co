@@ -25,7 +25,7 @@ const navbar = () => {
 
     </div>
           {/* NavContainer  */}
-      <div className='max-w-7xl mx-auto max-md:px-5 py-4 justify-between flex items-center gap-4 px-4'>
+      <div className='max-w-7xl mx-auto px-5 py-4 justify-between flex items-center gap-4 px-4'>
 
         
         <div className='flex justify-between items-center'>
@@ -54,7 +54,7 @@ const navbar = () => {
         <Input 
         placeholder="Search for products..." 
         className=" rounded-full border-none bg-accent max-w-[350px] shadow-none" />
-        {/* <Button variant="outline" className="rounded-full">Search</Button> */}
+        {/* <Button variant="outline" className="rounded-full">Search</Button>  */}
         </div>
       </div>
 
