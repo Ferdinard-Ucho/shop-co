@@ -11,10 +11,10 @@ const BrowseStyles = () => {
           Browse by dress style
         </h2>
         <div className='grid md:grid-cols-10 gap-4'>
-          <PictureTile url={"/images/image 11 (1).png"} size={'md'}  title="Casual" imgClasses="-right-[40%]"/>
+          <PictureTile url={"/images/image 11.png"} size={'md'}  title="Casual" imgClasses=""/>
           <PictureTile url={"/images/image 13.png"} size={'lg'}  title="Formal" imgClasses="w-[400px] top-0"/>
           <PictureTile url={"/images/image 12.png"} size={'lg'}  title="Party" imgClasses="w-[300px] -top-0"/>
-          <PictureTile url={"/images/image 14.png"} size={'md'}  title="Gym" imgClasses="w-[250px] -top-[0%]"/>
+          <PictureTile url={"/images/image 14.png"} size={'md'}  title="Gym" imgClasses="w-[250px] -top-[10%]"/>
         </div>
       </div>
     </div>

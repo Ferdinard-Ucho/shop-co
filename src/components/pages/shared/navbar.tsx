@@ -4,6 +4,8 @@ import Link from 'next/link'
 import React from 'react'
 import { HeaderFont } from '@/lib/font'
 import { Input } from '@/components/ui/input'
+import Logo from './logo'
+
 
 const navbar = () => {
   return (
@@ -37,7 +39,7 @@ const navbar = () => {
 
 
         {/* Logo */}
-        <Link className={`${HeaderFont.className} text-xl font-black`} href={''}>SHOP.CO</Link>
+        <Logo/>
         </div>
 
       <div className='flex justify-center items-center gap-5 md:flex hidden flex-1'>
