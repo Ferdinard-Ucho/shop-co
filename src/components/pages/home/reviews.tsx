@@ -28,8 +28,8 @@ const reviews = () => {
           <ReviewCard/>
         </div>
     </div>
-  )
-}
+  );
+};
 
 export default reviews
 
@@ -50,5 +50,5 @@ const ReviewCard = ({}) => {
         "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident incidunt impedit asperiores voluptates sit ut ratione! Illum inventore doloribus explicabo?"
       </p>
     </div>
-  )
-}
+  );
+};

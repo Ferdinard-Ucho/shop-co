@@ -2,7 +2,6 @@ import { Button } from '@/components/ui/button'
 import { CircleUserRound, Menu, Search, ShoppingCart, X } from 'lucide-react'
 import Link from 'next/link' 
 import React from 'react'
-import { HeaderFont } from '@/lib/font'
 import { Input } from '@/components/ui/input'
 import Logo from './logo'
 

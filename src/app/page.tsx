@@ -1,6 +1,4 @@
-import { Button } from '@/components/ui/button';
 import React from 'react';
-import { HeaderFont } from '@/lib/font';
 import Navbar from '@/components/pages/shared/navbar';
 import Hero from '@/components/pages/home/hero';
 import Brands from '@/components/pages/home/brands';
